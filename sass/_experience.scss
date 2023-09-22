@@ -1,0 +1,39 @@
+#experience {
+  position: relative;
+  .experience {
+    &-container {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    &-sub {
+      &-title {
+        color: $p-color;
+        font-weight: 600;
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+      }
+    }
+    &-details {
+      &-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+  }
+}
+.article {
+  &-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  &__text-box {
+    width: 6.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  .profile {
+    &-pic {
+      border: 2px solid $gray;
+      // overflow: hidden;
+      border-radius: 50%;
+    }
+  }
+  .section {
+    &__text {
+      display: block;
+      align-self: center;
+      text-align: center;
+      flex-shrink: 0;
+
+      #socials-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+      }
+    }
+  }
+}

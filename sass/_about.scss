@@ -1,0 +1,22 @@
+#about {
+  position: relative;
+}
+
+.about {
+  &-containers {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  &-details {
+    &-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  &-pic {
+    border-radius: 2rem;
+  }
+}

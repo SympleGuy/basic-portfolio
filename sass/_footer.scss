@@ -1,0 +1,26 @@
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  p {
+    text-align: center;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    a {
+      color: $text-color;
+      transition: all 300ms ease;
+      // text-decoration-color: #fff;
+      &:hover {
+        color: #808080;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color: rgb(181, 181, 181);
+      }
+    }
+  }
+}

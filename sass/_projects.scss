@@ -1,0 +1,43 @@
+#projects {
+  position: relative;
+  .projects {
+    &-details {
+      &-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+    &-containers {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      //   overflow: hidden;
+    }
+  }
+  .color {
+    &-container {
+      border-color: $border;
+      background: $bg-color;
+      // height: 30rem;
+      // overflow: hidden;
+      // height: fit-content;
+    }
+  }
+  .project {
+    &-img {
+      border-radius: 2rem;
+      width: 90%;
+      height: 90%;
+    }
+    &-title {
+      margin: 1rem;
+      color: #000;
+    }
+    &-btn {
+      color: #000;
+      border-color: $border;
+    }
+  }
+}

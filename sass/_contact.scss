@@ -1,0 +1,36 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.contact {
+  &-info {
+    &-upper-container {
+      display: flex;
+      justify-content: center;
+      border-radius: 2rem;
+      border: $gray 0.1rem solid;
+      border-color: $border;
+      background: $bg-color;
+      margin: 2rem auto;
+      padding: 0.5rem;
+    }
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin: 1rem;
+      p {
+        font-size: large;
+      }
+      .email-icon {
+        height: 2.5rem;
+      }
+    }
+  }
+  &-icon {
+    cursor: default;
+  }
+}
